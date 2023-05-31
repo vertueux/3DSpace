@@ -7,7 +7,7 @@
 It is a good template to use to create your own 3D XNA / Monogame game. It is using the [Monogame framework](https://www.monogame.net/) & the [Visual Studio Community IDE](https://visualstudio.microsoft.com/fr/downloads).
 
 ## How to move
-Note that you can always adapt the keys to your needs. To modify the main keys (AZERTY to QWERTY) in Unity, go to `Camera.cs`, go down to the line `101`, and from that you can modify the keys to the one prefered *(Example: `Keys.Z` to `Keys.W`)*.
+Note that you can always adapt the keys to your needs. To modify the main keys (AZERTY to QWERTY), go to `Camera.cs`, go down to the line `101`, and from that you can modify the keys to the one prefered *(Example: `Keys.Z` to `Keys.W`)*.
 |Keyboard & Mouse keys      | Action                |
 |---------------------------|-----------------------|
 | `Z`                       | Move forward          |
@@ -26,10 +26,10 @@ Before installing Monogame, you'll need to install [Visual Studio 2019](https://
 * .Net Desktop Development - For Desktop OpenGL and DirectX platforms to target normal .NET Framework
 
 <img src="docs/images/installer_vs_components.png" width="950px">
-Once it's open, simply search for MonoGame in the top right search window, as shown above, and install the "MonoGame project templates". You now have the MonoGame templates installed, ready to create new projects.
+Once it's open, simply search for MonoGame in the top right search window, as shown above, and install MonoGame project templates. You now have the MonoGame templates installed, ready to create new projects.
 
 ### Install MonoGame extension for Visual Studio 2019
-To create new projects from within Visual Studio, you will need to install the Visual Studio 2019 extension, which can be installed from "Extensions -> Manage Extensions" in the Visual Studio menu bar.
+To create new projects from within Visual Studio, you will need to install the Visual Studio 2019 extension, which can be installed from *Extensions -> Manage Extensions* in the Visual Studio menu bar.
 <img src="docs/images/visual_studio_extension_manager.png" width="950px">
 Note that you can also install Monogame with the nuget package manager. For more informations, refer to [this tutorial](https://www.youtube.com/watch?v=YlN9PlJwDlg).
 ### Install MGCB Editor
@@ -48,7 +48,7 @@ dotnet new --install MonoGame.Templates.CSharp
 
 ## Clone it
 ```bat
-git clone https://github.com/vertueux/rendering.git
+git clone https://github.com/vertueux/3d-space.git
 ```
 
 Now, you can open it in your Visual Studio IDE by clicking on the solution file ```RenderingDemo.sln``` from the file explorer.
